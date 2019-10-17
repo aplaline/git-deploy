@@ -1,0 +1,26 @@
+{
+  "name": "@aplaline/git-deploy",
+  "version": "1.0.0",
+  "description": "Git-based deployment utility",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aplaline/git-deploy"
+  },
+  "bin": {
+    "git-deploy": "./bin/git-deploy"
+  },
+  "author": "Matthias Hryniszak",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/aplaline/git-deploy/issues"
+  },
+  "homepage": "https://github.com/aplaline/git-deploy#readme",
+  "dependencies": {
+    "commander": "^3.0.2",
+    "pure-uuid": "^1.5.7"
+  }
+}
